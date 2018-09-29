@@ -2,10 +2,10 @@ import math
 a = int(input("A: "))
 b = int(input("B: "))
 
-s = str( a * a + b * b )
-r = str( a * a - (b *b) )
-p = str( a*a * b*b )
-c = str( a*a / b*b)
+s = str( math.fabs( a + b ) )
+r = str( math.fabs( a - b ) )
+p = str( math.fabs( a * b ) )
+c = str( math.fabs( a / b ) )
 
 print( "Sum: " + s)
 print( "Raz: " + r)
