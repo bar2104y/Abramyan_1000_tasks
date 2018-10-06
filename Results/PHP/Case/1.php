@@ -1,6 +1,6 @@
 <?php
 
-$a = readline("A: ");
+$a = readline("Номер дня недели: ");
 
 switch ($a) {
 	case 1:
