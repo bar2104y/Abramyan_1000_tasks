@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
 	float x,y;
+	cout<<"f(x) = 2 * sin(x); x > 0\nf(x) = 6-x; x <= 0\n";
 	cout<<"X:";
 	cin>>x;
 
@@ -15,6 +16,6 @@ int main()
 		y = 6 - x;
 
 	cout<< y <<endl;
-	
+
 	return 0;
 }

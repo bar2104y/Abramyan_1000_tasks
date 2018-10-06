@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	float x,y;
+	cout<<"f(x) = -x; x <= 0\nf(x) = x^2; 0 < x < 2;\nf(x) = 4; x >= 2";
 	cout<<"X:";
 	cin>>x;
 
