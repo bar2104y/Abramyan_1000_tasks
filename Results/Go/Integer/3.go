@@ -4,10 +4,10 @@ import "fmt"
 
 func main(){
 	var a int
-	fmt.Print("M: ")
+	fmt.Print("Size(bytes): ")
 	fmt.Scan(&a)
 
-	a /= 1000	
+	a /= 1024
 
-	fmt.Println	(a)
+	fmt.Println	(a, " KB")
 }
