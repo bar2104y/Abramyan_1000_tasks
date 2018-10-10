@@ -1,6 +1,6 @@
 a = int(input("a: "))
 b = int(input("b: "))
-s = str(a * b)
-p = str(2 * (a + b))
-print("P = " + p)
-print("S = " + s)
+s = a * b
+p = 2 * (a + b)
+print("P = ", p)
+print("S = ", s)
