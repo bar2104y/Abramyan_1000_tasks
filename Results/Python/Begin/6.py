@@ -2,8 +2,8 @@ a = int(input("a: "))
 b = int(input("b: "))
 c = int(input("c: "))
 
-v = str(a*b*c)
-s = str(2 * (a*b + a*c + b*c))
+v = a*b*c
+s = 2 * (a*b + a*c + b*c)
 
-print("V = " + v)
-print("S = " + s)
+print("V =", v)
+print("S =", s)
