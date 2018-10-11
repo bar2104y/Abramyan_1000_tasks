@@ -3,4 +3,4 @@ x = int(input("X: "))
 
 y = ((x-3) ** 3) * (4*((x-3)**2) -7) + 2
 
-print("y(" + str(x) + ")= " + str(y) )
+print("y(",x,")=",y )
