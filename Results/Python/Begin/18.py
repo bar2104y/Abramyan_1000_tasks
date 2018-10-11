@@ -7,4 +7,4 @@ c = int(input("C: "))
 
 l = math.fabs( (a-c) * (b-c) )
 
-print("Result = " + str(l) )
+print("Result =",l)

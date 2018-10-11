@@ -11,5 +11,5 @@ b = math.fabs( y1 - y2 )
 p = 2 * ( a + b )
 s = a* b
 
-print( "P = " + str(p) )
-print( "S = " + str(s) )
+print( "P =",p) )
+print( "S =",s )
