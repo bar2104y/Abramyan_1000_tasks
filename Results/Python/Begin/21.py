@@ -15,4 +15,4 @@ p = (a + b + c) / 2
 
 s = math.sqrt( p * (p-a) * (p-b) * (p-c) )
 
-print("S = " + str(s) )
+print("S =",s)
