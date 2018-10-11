@@ -7,6 +7,6 @@ bc = math.fabs( c - b )
 ac = math.fabs( a - c )
 s = ac + bc
 
-print("AC = " + str(ac))
-print("BC = " + str(bc))
-print("AC + BC = " + str(s) )
+print("AC =",ac)
+print("BC =",bc)
+print("AC + BC =",s)
