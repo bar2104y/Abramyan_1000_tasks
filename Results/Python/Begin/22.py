@@ -2,8 +2,8 @@ a = int(input("A: "))
 b = int(input("B: "))
 
 c = a
-a = str(b)
-b = str(c)
+a = b
+b = c
 
-print("A = " + a)
-print("B = " + b)
+print("A = ",a)
+print("B = ",b)

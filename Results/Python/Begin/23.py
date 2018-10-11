@@ -3,10 +3,10 @@ b = int(input("B: "))
 c = int(input("C: "))
 
 d = a
-a = str(c)
-c = str(b)
-b = str(d)
+a = c
+c = b
+b = d
 
-print("A = " + a)
-print("B = " + b)
-print("C = " + c)
+print("A =", a)
+print("B =", b)
+print("C =", c)
