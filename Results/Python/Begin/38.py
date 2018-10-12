@@ -4,4 +4,4 @@ b = int(input("B: "))
 
 x = (0-b)/a
 
-print("X = " + str(x) )
+print("X =",x)
