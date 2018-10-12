@@ -5,4 +5,4 @@ t2 = int(input("T river: "))
 
 s = v*t1 + t2*(v-u)
 
-print("S = " + str(s))
+print("S =",s)
