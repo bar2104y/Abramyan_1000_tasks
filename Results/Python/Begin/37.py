@@ -6,4 +6,4 @@ t = int(input("T:   "))
 
 s = math.fabs(s-(t*(v1+v2)))
 
-print("S = " + str(s) )
+print("S =",s)
