@@ -4,15 +4,15 @@ using namespace std;
 
 main()
 {
-    int n;
-    cout<<"N:";
-    cin>>n;
+	int n;
+	cout<<"N:";
+	cin>>n;
 
-    while (n % 3 == 0)
-    {
-        n /= 3;
-    }
+	while (n % 3 == 0)
+	{
+		n /= 3;
+	}
 
-    (n ==1 ? "true":"false");
-    cout<<(n ==1 ? "true":"false")<<endl;
+	(n ==1 ? "true":"false");
+	cout<<(n ==1 ? "true":"false")<<endl;
 }
