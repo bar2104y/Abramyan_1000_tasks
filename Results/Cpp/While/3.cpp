@@ -4,14 +4,15 @@ using namespace std;
 
 main()
 {
-    int a,b;
+    int a,b,k=0;
     cout<<"A<B\nA, B:\n";
     cin>>a>>b;
 
     while (a >= b)
     {
         a -= b;
+        k++;
     }
 
-    cout<<a<<endl;
+    cout<<"A/B = "<<k<<" + "<<a<<endl;
 }
