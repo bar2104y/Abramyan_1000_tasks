@@ -12,7 +12,5 @@ main()
 	{
 		n /= 3;
 	}
-
-	(n ==1 ? "true":"false");
 	cout<<(n ==1 ? "true":"false")<<endl;
 }
