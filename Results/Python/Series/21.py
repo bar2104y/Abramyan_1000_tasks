@@ -1,16 +1,12 @@
 n = int(input("N: "))
 a = int(input())
-k = 0
 
-m = []
+f = True
 
 for i in range(1, n):
     tmp = a
     a = int(input())
     if a < tmp:
-        m.append(a)
-        k += 1
+        f = False
 
-print("K:", k)
-for tmp in m:
-    print(tmp)
+print(f)
