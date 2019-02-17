@@ -8,7 +8,7 @@ import (
 func main(){
 	var a,b float64
 
-	fmt.Println("Среднее арифмитическое")
+	fmt.Println("Результаты с модулями")
 
 	fmt.Print("A: ")
 	fmt.Scan(&a)
