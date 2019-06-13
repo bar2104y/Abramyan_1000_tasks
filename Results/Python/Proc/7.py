@@ -1,5 +1,5 @@
 def InvDigits(k):
-    c = 0
+    c = 0 #Кол-во цифр
     tmp = k
     while tmp>0:
         c += 1

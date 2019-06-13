@@ -1,5 +1,5 @@
 def AddLeftDigit(d,k):
-    cnt = 0
+    cnt = 0 #Кол-во цифр в числе
     k1 = k
     while k1 > 0:
         cnt += 1

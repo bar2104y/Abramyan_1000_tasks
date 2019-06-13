@@ -8,7 +8,7 @@ def MinMax(x,y):
 a,b,c,d = 6,10,9,4
 a,b = MinMax(a,b) # a -> Min, b -> Max
 c,d = MinMax(c,d) # c -> Min, d -> Max
-mi, t = MinMax(a,c)
+mi, t = MinMax(a,c) # t : trash
 t, ma = MinMax(b,d)
-del(t)
+del(t) 
 print(mi,ma)
