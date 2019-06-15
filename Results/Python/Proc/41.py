@@ -1,4 +1,3 @@
-import math
 #from Proc 34
 def Fact(n):
     res = 1
@@ -18,8 +17,4 @@ def Sin1(x,e):
         else: sin -= ex
         i += 1
         n += 2
-    return(sin)
-
-print(Sin1(3.14/6,0.00001))
-print(math.sin(3.14/6))
-    
+    return(sin)   

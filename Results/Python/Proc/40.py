@@ -1,4 +1,3 @@
-import math
 #from Proc 34
 def Fact(n):
     res = 1
@@ -16,6 +15,3 @@ def Exp1(x,e):
         res += ex
     
     return(res)
-
-print(Exp1(7,0.1))
-print(math.exp(7))  
