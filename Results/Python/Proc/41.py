@@ -1,3 +1,4 @@
+import math
 #from Proc 34
 def Fact(n):
     res = 1
@@ -10,7 +11,7 @@ def Sin1(x,e):
     ex = x
     n = 1
     i = 1
-    while ex >= e:
+    while math.fabs(ex) >= e:
         ex = (x**n)/Fact(n)
         if i % 2 == 1:
             sin += ex
