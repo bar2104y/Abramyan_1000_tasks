@@ -1,3 +1,4 @@
+import math
 #from Proc 34
 def Fact(n):
     res = 1
@@ -9,7 +10,7 @@ def Exp1(x,e):
     n = 1
     ex = x
     res = 0
-    while ex > e:
+    while math.fabs(ex) > e:
         ex = (x**n) / Fact(n)
         n += 1
         res += ex

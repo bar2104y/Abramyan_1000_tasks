@@ -11,7 +11,7 @@ def Cos1(x,e):
     ex = x
     n = 0
     i = 1
-    while ex >= e:
+    while math.fabs(ex) >= e:
         ex = (x**n)/Fact(n)
         if i % 2 == 1:
             cos += ex
