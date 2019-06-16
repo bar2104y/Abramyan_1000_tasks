@@ -6,5 +6,3 @@ def GCD2(a,b):
 
 def GCD3(a,b,c):
     return(GCD2(GCD2(a,b),c))
-
-print(GCD3(64,48,96))

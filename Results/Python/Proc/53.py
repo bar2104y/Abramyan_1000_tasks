@@ -8,6 +8,3 @@ def MonthDays(m,y):
         return(29 if IsLeapYear(y) else 28 )
     else:
         return (31 if (m%7)%2 != 0 or m == 7 else 30)
-
-for i in range(1,13):
-    print(i, MonthDays(i,2011))

@@ -6,7 +6,3 @@ def GCD2(a,b):
 
 def LCM2(a,b):
     return(a*b//GCD2(a,b))
-
-a,b,c,d = 64,48,111,432
-print(a,b,'    ', LCM2(a,b))
-print(c,d,'    ', LCM2(c,d))

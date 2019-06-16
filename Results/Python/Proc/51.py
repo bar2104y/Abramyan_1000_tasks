@@ -3,5 +3,3 @@ def IncTime(h,m,s,t):
     m += t%3600 // 60
     s += t-(t//3600*3600) - (t%3600 // 60)*60
     return(h,m,s)
-
-print(IncTime(1,30,20, 3675))

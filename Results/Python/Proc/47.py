@@ -7,6 +7,3 @@ def GCD2(a,b):
 def Frac1(a,b):
     nod = GCD2(a,b)
     return( str(a//nod) + ' / ' + str(b//nod) )
-
-a,b = 111,423
-print(a,'/',b, '=', Frac1(a,b))
