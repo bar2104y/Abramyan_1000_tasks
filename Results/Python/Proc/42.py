@@ -18,7 +18,4 @@ def Cos1(x,e):
         else: cos -= ex
         i += 1
         n += 2
-    return(cos)  
-
-print(Cos1(3.14/3,0.0000001))
-print(math.cos(3.14/3))
+    return(cos)

@@ -9,6 +9,3 @@ def Arctg1(x,e):
         arctg += ex
         i+=1
     return(arctg)
-
-print(Arctg1(0.9, 0.0000000000000000001))
-print(math.atan(0.9))

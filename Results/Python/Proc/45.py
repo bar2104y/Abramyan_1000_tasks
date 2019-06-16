@@ -8,6 +8,3 @@ def Power4(x,a,e):
         res += ex
         n += 1
     return(res)
-
-print(Power4(0.1,2.88,0.00000000000000000001))
-print(1.1**2.88)

@@ -9,6 +9,3 @@ def Ln1(x,e):
         ln += ex
         i+=1
     return(ln)
-
-print(Ln1(0.5, 0.0000000000000000001))
-print(math.log1p(0.5))
