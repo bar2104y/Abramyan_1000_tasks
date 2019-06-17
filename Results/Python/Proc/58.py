@@ -11,5 +11,3 @@ def Area(xa,ya, xb,yb, xc,yc):
     bc = Leng(xc,yc, xb,yb)
     ac = Leng(xc,yc, xa,ya)
     return(math.sqrt( p*(p-ab)*(p-bc)*(p-ac) ))
-
-print(Area(0,0,0,4,3,0))

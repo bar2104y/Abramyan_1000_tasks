@@ -19,5 +19,3 @@ def PrevDate(d,m,y):
         d = MonthDays(m,y)
     else: d -= 1
     return(d,m,y)
-
-print(PrevDate(1,1,2011))

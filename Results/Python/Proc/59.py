@@ -14,5 +14,3 @@ def Area(xa,ya, xb,yb, xc,yc):
 
 def Dist(xp,yp, xa,ya, xb,yb):
     return(2*Area(xa,ya, xb,yb, xp,yp)/Leng(xa,ya, xb,yb))
-
-print(Dist(0,0, 0,3, 4,3))

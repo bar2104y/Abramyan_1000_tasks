@@ -18,5 +18,3 @@ def Dist(xp,yp, xa,ya, xb,yb):
 #return ha,hb,hc
 def Altitudes(xa,ya, xb,yb, xc,yc):
     return(Dist(xa,ya, xb,yb, xc,yc), Dist(xb,yb, xa,ya, xc,yc), Dist(xc,yc, xa,ya, xb,yb) )
-
-print(Altitudes(0,0, 0,3, 4,3))

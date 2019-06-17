@@ -18,5 +18,3 @@ def NextDate(d,m,y):
         else: m+=1
     else: d += 1
     return(d,m,y)
-
-print(NextDate(31,12,2015))

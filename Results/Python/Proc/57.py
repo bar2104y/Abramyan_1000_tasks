@@ -4,5 +4,3 @@ def Leng(xa,ya, xb,yb):
 
 def Perim(xa,ya, xb,yb, xc,yc):
     return(Leng(xa,ya, xb,yb) + Leng(xc,yc, xb,yb) + Leng(xa,ya, xc,yc))
-
-print(Perim(0,0,0,4,3,0))
