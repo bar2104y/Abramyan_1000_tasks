@@ -9,6 +9,8 @@ s = 0
 k = int(input("K: "))
 l = int(input("L: "))
 
-for i in range(n): s+=a[i]
-
-print(s-a[k]-a[l])
+for i in range(n):
+    if i not in range(k,l+1):
+        s+=a[i]
+        
+print(s)
