@@ -1,7 +1,7 @@
-def genLinearArr( n, o=0 ):
+def genLinearArr( n, offset=0 ):
     a = []
     for i in range(n):
-        a.append(i)
+        a.append(i+offset)
     return(a)
 
 def genRandomArr( n, s = 0, e = 100 ):
