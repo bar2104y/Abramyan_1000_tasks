@@ -5,8 +5,8 @@ a = genRandomArr(n)
 print(a)
 b = []
 
-i = 0
+i = 1
 while i < n:
     b.append(a[i])
     i += 2
-print(len(b), b)
+print(len(b),b)
