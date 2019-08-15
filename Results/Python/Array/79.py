@@ -5,10 +5,11 @@ a = genLinearArr(n)
 print(a)
 
 tmp = a[0]
+a[0] = 0
 
 for i in range(n):
-    tmp1 = a[(i+1)%n]
-    a[(i+1)%n] = tmp
+    tmp1 = a[i]
+    a[i] = tmp
     tmp = tmp1  
     
 print(a)

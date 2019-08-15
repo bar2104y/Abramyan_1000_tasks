@@ -1,4 +1,4 @@
-#Последовательный сдвиг, используя решение из №79
+#Последовательный сдвиг, используя решение из №80
 from genarr import genLinearArr
 n = int(input("N: "))
 k = int(input("K: "))
@@ -7,11 +7,7 @@ a = genLinearArr(n)
 print(a)
 
 for j in range(k):
-    tmp = a[0]
-
-    for i in range(n):
-        a[i] = a[(i+1)%n]
-
-    a[n-1] = tmp
+    for i in range(n-1):
+        a[i] = a[i+1]
 
 print(a)

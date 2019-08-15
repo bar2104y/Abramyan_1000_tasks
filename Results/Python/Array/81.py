@@ -6,12 +6,16 @@ k = int(input("K: "))
 a = genLinearArr(n)
 print(a)
 
-for j in range(k):
-    tmp = a[0]
+tmp = a[0]
+a[0] = 0
 
-    for i in range(n):
-        tmp1 = a[(i+1)%n]
-        a[(i+1)%n] = tmp
-        tmp = tmp1  
-        
+for j in range(k):
+	for i in range(n):
+		tmp1 = a[i]
+		a[i] = tmp
+		tmp = tmp1 
+
+for i in range(k):
+    	a[i] = 0
+    
 print(a)
