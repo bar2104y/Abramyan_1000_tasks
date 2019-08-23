@@ -6,25 +6,25 @@ using namespace std;
 
 void quickSort(int *numbers, int left, int right)
 {
-  int pivot; // разрешающий элемент
-  int l_hold = left; //левая граница
-  int r_hold = right; // правая граница
+  int pivot;
+  int l_hold = left;
+  int r_hold = right;  
   pivot = numbers[left];
-  while (left < right) // пока границы не сомкнутся
+  while (left < right)  
   {
     while ((numbers[right] >= pivot) && (left < right))
-      right--; // сдвигаем правую границу пока элемент [right] больше [pivot]
-    if (left != right) // если границы не сомкнулись
+      right--;  
+    if (left != right)  
     {
-      numbers[left] = numbers[right]; // перемещаем элемент [right] на место разрешающего
-      left++; // сдвигаем левую границу вправо
+      numbers[left] = numbers[right];  
+      left++;  
     }
     while ((numbers[left] <= pivot) && (left < right))
-      left++; // сдвигаем левую границу пока элемент [left] меньше [pivot]
-    if (left != right) // если границы не сомкнулись
+      left++;  
+    if (left != right)  
     {
-      numbers[right] = numbers[left]; // перемещаем элемент [left] на место [right]
-      right--; // сдвигаем правую границу вправо
+      numbers[right] = numbers[left];  
+      right--;  
     }
   }
   numbers[left] = pivot;
