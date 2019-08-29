@@ -12,15 +12,14 @@ int main()
 	cout<<"(строки)  M: "; cin>>m;
 	cout<<"(столбцы) N: "; cin>>n;
 	
-	//int h[m][n];
-	int h[2][2] = {{9,0}, {8,2}};
+	int h[m][n];
 	//h[строка][столбец]
 	//М строк на N столбцов
 	for (int i = 0; i < m; i++)
 	{
 		for (int j = 0; j < n; j++)
 		{
-			//h[i][j] = rand() % 10;
+			h[i][j] = rand() % 10;
 			cout<<h[i][j]<<"\t";
 		}
 		cout<<endl;
